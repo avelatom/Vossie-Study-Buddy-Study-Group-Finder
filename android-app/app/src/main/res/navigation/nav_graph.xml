@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Start screen is set in MainActivity (login or home) -->
+
+    <!-- Authentication (FR01, FR02) -->
+    <!-- No title on login -->
+    <fragment android:id="@+id/loginFragment"
+        android:name="com.v2v.app.ui.LoginFragment"
+        android:label=" " />
+    <fragment android:id="@+id/registerFragment"
+        android:name="com.v2v.app.ui.RegisterFragment"
+        android:label="Create account" />
+    <fragment android:id="@+id/verifyFragment"
+        android:name="com.v2v.app.ui.VerifyFragment"
+        android:label="Verify email" />
+
+    <!-- Main tabs -->
+    <fragment android:id="@+id/homeFragment"
+        android:name="com.v2v.app.ui.HomeFragment"
+        android:label="Suggested peers" />
+    <fragment android:id="@+id/searchFragment"
+        android:name="com.v2v.app.ui.SearchFragment"
+        android:label="Find peers" />
+    <fragment android:id="@+id/groupsFragment"
+        android:name="com.v2v.app.ui.GroupsFragment"
+        android:label="Study groups" />
+    <fragment android:id="@+id/connectionsFragment"
+        android:name="com.v2v.app.ui.ConnectionsFragment"
+        android:label="Connections" />
+    <fragment android:id="@+id/messagesFragment"
+        android:name="com.v2v.app.ui.MessagesFragment"
+        android:label="Messages" />
+    <fragment android:id="@+id/profileFragment"
+        android:name="com.v2v.app.ui.ProfileFragment"
+        android:label="My profile" />
+
+    <!-- Child screens -->
+    <fragment android:id="@+id/skillsFragment"
+        android:name="com.v2v.app.ui.SkillsFragment"
+        android:label="My modules and skills" />
+    <fragment android:id="@+id/peerProfileFragment"
+        android:name="com.v2v.app.ui.PeerProfileFragment"
+        android:label="Student profile" />
+    <fragment android:id="@+id/groupDetailFragment"
+        android:name="com.v2v.app.ui.GroupDetailFragment"
+        android:label="Study group" />
+    <fragment android:id="@+id/chatFragment"
+        android:name="com.v2v.app.ui.ChatFragment"
+        android:label="Chat" />
+    <!-- FR16 - feedback -->
+    <fragment android:id="@+id/feedbackFragment"
+        android:name="com.v2v.app.ui.FeedbackFragment"
+        android:label="Give feedback" />
+</navigation>

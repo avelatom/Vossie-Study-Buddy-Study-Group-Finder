@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Navy gradient behind login / register / verify -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:angle="270"
+        android:startColor="@color/v2v_navy"
+        android:centerColor="@color/v2v_navy_dark"
+        android:endColor="@color/v2v_navy_dark"
+        android:type="linear" />
+</shape>

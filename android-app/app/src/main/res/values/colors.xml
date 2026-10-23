@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App colours - navy + sky blue are the main ones -->
+
+    <!-- BRAND -->
+    <color name="v2v_navy">#1F3A68</color>           
+    <color name="v2v_navy_dark">#14284A</color>      
+    <color name="v2v_blue">#29ABE2</color>           <!-- accent colour -->
+    <color name="v2v_light">#EAF4FB</color>          
+
+    <!-- Extra shades for the avatars -->
+    <color name="v2v_indigo">#3949AB</color>         
+    <color name="v2v_royal">#344DBC</color>          
+    <color name="v2v_teal">#1C7C9C</color>
+
+    <!-- NEUTRALS -->
+    <color name="v2v_bg">#F3F6FB</color>             <!-- page background -->
+    <color name="v2v_border">#DDE4EE</color>         <!-- borders -->
+    <color name="v2v_text">#1B2433</color>           
+    <color name="v2v_grey">#6B7280</color>           
+    <color name="v2v_on_navy_muted">#B9CBE6</color>  <!-- grey text on navy -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- STATUS -->
+    <color name="v2v_green">#2E7D32</color>          
+    <color name="v2v_green_light">#E3F2E5</color>
+    <color name="v2v_red">#C62828</color>            
+    <color name="v2v_red_light">#FBE9E9</color>
+
+    <!-- CHAT -->
+    <color name="bubble_mine">#1F3A68</color>
+    <color name="bubble_theirs">#FFFFFF</color>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Live API address (has to be HTTPS). Debug builds use debug/res/values/config.xml -->
+    <string name="api_base_url" translatable="false">https://YOUR-DOMAIN/backend-api/</string>
+</resources>

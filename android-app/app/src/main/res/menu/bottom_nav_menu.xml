@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Matches" />
+    <item android:id="@+id/searchFragment"
+        android:icon="@drawable/ic_search"
+        android:title="Search" />
+    <item android:id="@+id/groupsFragment"
+        android:icon="@drawable/ic_school"
+        android:title="Groups" />
+    <item android:id="@+id/connectionsFragment"
+        android:icon="@drawable/ic_people"
+        android:title="Connections" />
+    <item android:id="@+id/messagesFragment"
+        android:icon="@drawable/ic_chat"
+        android:title="Messages" />
+</menu>

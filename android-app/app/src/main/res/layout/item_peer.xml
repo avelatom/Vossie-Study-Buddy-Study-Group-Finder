@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Student card for Matches and Search -->
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="6dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/peer_item_avatar"
+                style="@style/Widget.V2V.Avatar"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/peer_item_name"
+                    style="@style/TextAppearance.V2V.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1" />
+
+                <TextView
+                    android:id="@+id/peer_item_campus"
+                    style="@style/TextAppearance.V2V.Caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_location_small"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/v2v_grey"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <!-- Connected / Request sent / Wants to connect -->
+            <TextView
+                android:id="@+id/peer_item_relation"
+                style="@style/Widget.V2V.Chip"
+                android:layout_marginStart="8dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- Both can help each other (FR08) -->
+        <TextView
+            android:id="@+id/peer_item_swap"
+            style="@style/Widget.V2V.Chip"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/v2v_blue"
+            android:drawableStart="@drawable/ic_swap"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white"
+            android:gravity="center_vertical"
+            android:text="Skill swap match"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <!-- Why matched -->
+        <TextView
+            android:id="@+id/peer_item_reasons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="2dp"
+            android:textColor="@color/v2v_green"
+            android:visibility="gone" />
+
+        <!-- Modules they offer / need -->
+        <TextView
+            android:id="@+id/peer_item_offers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/v2v_text"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/peer_item_needs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/v2v_text"
+            android:visibility="gone" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

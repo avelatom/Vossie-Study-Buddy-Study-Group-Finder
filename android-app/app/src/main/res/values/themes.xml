@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App theme -->
+    <style name="Theme.V2V" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Colours -->
+        <item name="colorPrimary">@color/v2v_navy</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/v2v_light</item>
+        <item name="colorOnPrimaryContainer">@color/v2v_navy_dark</item>
+        <item name="colorSecondary">@color/v2v_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/v2v_light</item>
+        <item name="colorOnSecondaryContainer">@color/v2v_navy_dark</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/v2v_text</item>
+        <item name="colorOnSurfaceVariant">@color/v2v_grey</item>
+        <item name="colorOutline">@color/v2v_border</item>
+        <item name="colorError">@color/v2v_red</item>
+        <item name="android:colorBackground">@color/v2v_bg</item>
+        <item name="android:windowBackground">@color/v2v_bg</item>
+        <item name="android:textColorPrimary">@color/v2v_text</item>
+        <!-- Stops Material 3 tinting the cards -->
+        <item name="elevationOverlayEnabled">false</item>
+
+        <!-- System bars -->
+        <item name="android:statusBarColor">@color/v2v_navy</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/white</item>
+
+        <!-- Default styles (styles.xml) -->
+        <item name="materialCardViewStyle">@style/Widget.V2V.Card</item>
+        <item name="materialButtonStyle">@style/Widget.V2V.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.V2V.Button.Outlined</item>
+        <item name="textInputStyle">@style/Widget.V2V.TextInput</item>
+        <item name="bottomNavigationStyle">@style/Widget.V2V.BottomNav</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.V2V.Dialog</item>
+        <item name="radioButtonStyle">@style/Widget.V2V.RadioButton</item>
+        <item name="checkboxStyle">@style/Widget.V2V.CheckBox</item>
+    </style>
+</resources>
